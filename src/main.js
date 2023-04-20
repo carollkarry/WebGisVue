@@ -1,4 +1,4 @@
-import {createApp, VueElement} from 'vue'
+import Vue, {createApp, VueElement} from 'vue'
 import App from './App.vue'
 import store from './store'
 import ElementPlus from 'element-plus';
@@ -9,6 +9,7 @@ import locale from 'element-plus/lib/locale/lang/zh-cn'
 import 'dayjs/locale/zh-cn'
 import* as echarts from 'echarts'
 import AMapLoader from "@amap/amap-jsapi-loader";
+
 
 const app = createApp(App)
 app.use(store)
