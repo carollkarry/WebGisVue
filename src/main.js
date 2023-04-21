@@ -25,8 +25,3 @@ VueElement.prototype.axios=axios;
 
 
 
-
-
-
-
-
