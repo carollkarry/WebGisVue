@@ -11,6 +11,8 @@ import* as echarts from 'echarts'
 import AMapLoader from "@amap/amap-jsapi-loader";
 
 
+
+
 const app = createApp(App)
 app.use(store)
 app.use(AMapLoader)

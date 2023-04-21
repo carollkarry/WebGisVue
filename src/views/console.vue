@@ -4,10 +4,10 @@
 
 <script>
 export default {
-  name: 'console'
+  name: 'console',
 }
 </script>
 
-<style scoped>
+<style >
 
 </style>

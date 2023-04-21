@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside width="12%">
+    <el-aside style="height: 100%;width: 12%;">
       <div class="menu">
         <el-menu
             default-active="2"
@@ -66,7 +66,7 @@ export default {
 .el-main {
   background-color: #cfebe43f;
   color: #333;
-   text-align: left;
+  text-align: left;
   /*line-height: 160px;*/
   padding: 0px ! important;
 }
